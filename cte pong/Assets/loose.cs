@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class loose : MonoBehaviour
 {
-    public ball b;
-    public rbd1 r,j;
+    private ball b;
+    private paddle1 r;
+    private paddle2 j;
     // Start is called before the first frame update
     void Start()
     {
-        
+        b = GameObject.Find("ball").GetComponent<ball>();
+        r = GameObject.Find("player 1").GetComponent<paddle1>();
+        j = GameObject.Find("player 2").GetComponent<paddle2>();
     }
 
     // Update is called once per frame
