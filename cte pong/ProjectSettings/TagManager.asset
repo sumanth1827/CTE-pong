@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ball
+  - paddle
+  - end1
+  - end2
   layers:
   - Default
   - TransparentFX
